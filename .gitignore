@@ -1,0 +1,21 @@
+# All temporary files (drafts, intermediate images, logs, scratch scripts, test output, agent runs) live here.
+/.tmp/
+
+# .NET build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+TestResults/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Never commit secrets or proprietary SDK binaries (EOS SDK is fetched in release CI only)
+*.env
+.env*
+secrets/
+third_party/eos-sdk/
